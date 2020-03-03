@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>シングルページレイアウト</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="site-title-sub">MORI TAIKI</p>
+        <h1 class="site-title"> MY  PORTFOLIO  SITE</h1>
+        <p class="site-description">Check out some of my works.</p>
+        <div class="buttons">
+            <a class="button" href="#about">LERAN MORE</a>
+            <a class="button" href="#contact">SEND MESSAGE</a>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <h2 class="heading">ABOUT ME</h2>
+         <p class="about-text">
+             はじめまして。モリタイキです。<br>
+             エンジニアを目指してプログラミングを勉強中です。
+         </p>
+         <p class="about-text">
+             このサイトはHTMLとCSSを使ったポートフォリオサイトです。<br>
+             いちから作りオリジナリティーを取り入れて、アウトプットの練習をしています。
+         </p>
+    </section>
+    <section class="works">
+        <h2 class="heading">WORKS</h2>
+        <div class="works-wrapper">
+            <div class="work-box tree">
+                <img class="work-image" src="tree.jpg" alt="製作事例1">
+                <div class="work-description">
+                    <div class="work-description-inner">
+                        <p class="work-text">
+                          サイト模写<br>
+                          人生で初めて作成したサイトです<br>
+                          使用ツール：HTML, CSS<br>
+                        <a href="#" class="button button-ghost">READ MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-box building">
+                <img class="work-image" src="building.jpg" alt="製作事例2">
+                <div class="work-description">
+                  <div class="work-description-inner">
+                    <p class="work-text">
+                        PicTweet<br>
+                        スクール教材でRailsを使った<br>
+                        アプリケーションです<br>
+                        使用ツール：Ruby RubyonRails <br>
+                        <a href="#" class="button button-ghost">READ MORE</a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="work-box lake">
+                <img class="work-image" src="lake.jpg" alt="製作事例3">
+                <div class="work-description">
+                  <div class="work-description-inner">
+                    <p class="work-text">
+                         Railsポートフォリオ<br>
+                        現在製作中です。<br>
+                        使用ツール：HTML CSS Ruby RubyonRails <br>
+                        <a href="#" class="button button-ghost">READ MORE</a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="work-box sky">
+                <img class="work-image" src="sky.jpg" alt="製作事例4">
+                <div class="work-description">
+                  <div class="work-description-inner">
+                    <p class="work-text">
+                        これから作っていく予定です。<br>
+                        現在製作中です。<br>
+                        使用ツール：XXX XXX XXX <br>
+                        <a href="#" class="button button-ghost">READ MORE</a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <h2 class="heading">MY LINK</h2>
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <a class="skill-icon fab fa-twitter" href="https://twitter.com/forest_mememe"></a>
+                <div class="skill-title">Twitter</div>
+                <p class="skill-text">
+                情報発信や日々の取り組みなど<br>
+                ツイートしています。<br>
+                </p>
+            </div>
+            <div class="skill-box">
+                <a class="skill-icon fab fa-github" href="https://github.com/TAIKIMORI"></a>
+                <div class="skill-title">Github</div>
+                <p class="skill-text">
+                コードをまとめた物を載せています。<br>
+                </p>
+            </div>
+            <div class="skill-box">
+                <a class="skill-icon fab fa-facebook" href="https://www.facebook.com/taiki.mori.12327"></a>
+                <div class="skill-title">Facebook</div>
+                <p class="skill-text">
+                プライベートなどを載せています。<br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="NAME">
+            <textarea name="message" placeholder="MESSAGE"></textarea>
+            <input type="submit" value="SEND">
+        </form>
+    </section>
+    <footer class="footer">
+        © MORI TAIKI
+    </footer>
+    <script src="lib/placeholders.min.js"></script>
+</body>
+</html>
